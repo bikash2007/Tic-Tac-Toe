@@ -36,8 +36,8 @@ body{
      padding: 1vw;
 }
 .box{
-    height: 18vh;
-    width: 18vh;
+    height: 17vh;
+    width: 17vh;
     border: none;
     border-radius: 1.2vmin;
     box-shadow: 0px 0px 83px rgb(44, 3, 60);
@@ -94,5 +94,23 @@ body{
     width: 30vw;
     font-size: 4vw;
     font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width:410px){
+     
+    #game{
+         height: 50vh;
+         width: 50vh; 
+    }
+    .box{
+        height: 13vh;
+        width: 13vh;
+        line-height: 4vh;
+    }
+    #reset{
+        height: 10vh;
+        width:  70vw;
+        bottom: 10vh;
+        left: 7vh;
+    }
 }
 
